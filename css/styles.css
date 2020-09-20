@@ -1,3 +1,10 @@
+:root {
+  --primary-text-color: #212121;
+  --discription-text-color: #757575;
+  --accent-color: #2196f3;
+  --text-color: #ffffff;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -16,16 +23,16 @@ body {
 .portfolio-navigation-list:focus,
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .email-link:hover,
 .email-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .tel-link:hover,
 .tel-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 
   .logo-img {
     font-family: Raleway;
@@ -44,22 +51,23 @@ body {
   font-size: 14px;
   line-height: 1.333;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .email-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .tel-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.333;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
+
 .hero {
   font-weight: 900;
   font-size: 44px;
@@ -90,7 +98,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .about-us-details {
   font-weight: normal;
@@ -100,7 +108,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--discription-text-color);
 }
 .about-us-actions,
 .our-team {
@@ -110,7 +118,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .city-adress {
   font-weight: normal;
@@ -129,5 +137,5 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
