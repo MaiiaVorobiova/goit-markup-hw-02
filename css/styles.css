@@ -5,6 +5,13 @@
   --text-color: #ffffff;
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -15,6 +22,10 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+img {
+  display: block;
 }
 
 .navigation-list-link:hover,
