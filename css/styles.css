@@ -5,13 +5,6 @@
   --text-color: #ffffff;
 }
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -24,14 +17,8 @@ body {
   text-decoration: none;
 }
 
-img {
-  display: block;
-}
-
 .navigation-list-link:hover,
 .navigation-list-link:focus,
-.portfolio-navigation-list:hover,
-.portfolio-navigation-list:focus,
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
   color: var(--accent-color);
